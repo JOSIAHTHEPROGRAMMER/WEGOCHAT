@@ -1,0 +1,24 @@
+# General
+node_modules/
+.env
+.DS_Store
+*.log
+logs/
+dist/
+build/
+
+# IDE & editor folders
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore everything in assets except selected files
+clientApp/src/assets/*
+!clientApp/src/assets/logo.png
+!clientApp/src/assets/avatar_icon.png
+!clientApp/src/assets/bgImage.jpg
